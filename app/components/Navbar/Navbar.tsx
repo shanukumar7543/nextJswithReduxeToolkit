@@ -14,19 +14,13 @@ const Navbar = () => {
         style={{ justifyContent: 'space-between', width: 'full' }}
       >
         <p style={{ marginRight: '15px' }}>
-          <Link href="/login">Login</Link>
-        </p>
-        <p style={{ marginRight: '15px' }}>
-          <Link href="/register">Register</Link>
-        </p>
-        <p style={{ marginRight: '15px' }}>
           <Link href="/dashboard">Dashboard</Link>
         </p>
         <p style={{ marginRight: '15px' }}>
           <Link href="/blog">blog</Link>
         </p>
         <p style={{ marginRight: '15px' }}>
-          <Link href="">Logout</Link>
+          <Link href="/login">Logout</Link>
         </p>
       </div>
     </nav>

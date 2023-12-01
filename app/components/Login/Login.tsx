@@ -116,6 +116,9 @@ export const Login = () => {
             Save
           </button>
         </div>
+        <p style={{ display: 'flex', justifyContent: 'center', color: 'blue' }}>
+          <Link href="/">Register</Link>
+        </p>
       </form>
     </div>
   )

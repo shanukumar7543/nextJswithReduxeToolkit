@@ -5,7 +5,7 @@ import BasicTable from '../Table/Table'
 export default function Dashboard() {
   return (
     <div style={{ height: '100%', width: '100%' }}>
-      {/* <Navbar /> */}
+      <Navbar />
       <BasicTable />
     </div>
   )

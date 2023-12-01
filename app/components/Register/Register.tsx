@@ -161,6 +161,9 @@ export const Register = () => {
             Save
           </button>
         </div>
+        <p style={{ display: 'flex', justifyContent: 'center', color: 'blue' }}>
+          <Link href="/login">Login</Link>
+        </p>
       </form>
     </div>
   )

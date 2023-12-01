@@ -79,6 +79,7 @@ export default function BasicTable() {
   const handleUpdateProduct = async (formdata: any) => {
     try {
       const res = await updateProduct(idnew, formdata)
+      handleClose()
 
       // Updating a product will not update it into the server.
       // It will simulate a PUT/PATCH request and will return the product with modified data
