@@ -1,0 +1,37 @@
+/* Navbar.css */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; /* Adjusted for space between the logo and links */
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px; /* Adjusted margin for spacing between the links */
+  cursor: pointer;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #333; /* Change to the color you want on hover */
+  background-color: white; /* Change to the background color you want on hover */
+}
+.link {
+  margin-right: 10px;
+}
+
+/* Optional: Change cursor style on hover */
+/* .nav; */
